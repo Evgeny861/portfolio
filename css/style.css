@@ -116,6 +116,74 @@ body {
     line-height: 28px;
     margin: 0;
 }
+.projects {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.project-text {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-title {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+.project-time, .project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+
+}
+.project-time, .project-cost, .projects-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+.project-subtitle {
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.project-paragraph {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.project-icon {
+    margin-right: 15px;
+}
+.projects-pagination {
+    display: flex;
+    justify-content: center;
+}
+.projects-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ffbb01;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 44px;
+}
+.projects-bullet-active {
+    background-color: #ffbb01;
+}
+
+
+
+
+
 .contacts-form {
     background: #FFFFFF;
     box-shadow: -5px 5px 0px #FFC41D;
